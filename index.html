@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Javascript project</title>
+  <link rel="stylesheet" href="./style/style.css" />
+  <!-- itraukiu javascript -->
+  <!-- <script src="./js/dom.js" defer></script> -->
+  <!-- <script src="./js/domPr.js" defer></script> -->
+  <!-- <script src="./js/events.js" defer></script> -->
+  <script src="./js/deleteList.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="mainHeading">DOM DOM DOM</h1>
+
+    <div class="control">
+      <!-- <button onclick="makeBodyDark()" id="btn1">Click me</button> -->
+      <button id="btn1">Click me</button>
+      <button id="btn2">Toggle dark mode</button>
+    </div>
+
+    <div id="app">
+      <ul class="list">
+        <li class="deleteMe">one</li>
+        <li class="listEl">two</li>
+        <li class="listEl">three</li>
+      </ul>
+    </div>
+
+    <article class="art card">
+      <h2 id="art__title" class="art__title">Main title</h2>
+      <p id="art__date">Date</p>
+      <p id="art__text">Lorem ipsum dolor</p>
+    </article>
+
+    <ul id="colors" class="list">
+      <!-- // event.target.parentElement.remove() -->
+      <li class="deleteMe">
+        Red
+        <!-- // event.target -->
+        <button class="delBtn">delete</button>
+      </li>
+      <li class="deleteMe">Green <button class="delBtn">delete</button></li>
+      <li class="deleteMe">Yellow <button class="delBtn">delete</button></li>
+      <li class="deleteMe">Blue <button class="delBtn">delete</button></li>
+    </ul>
+
+  </div>
+</body>
+
+</html>
